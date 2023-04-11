@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Amiri:wght@400;700&amp;display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <!-- <link href="../blog/blog.rtl.css" rel="stylesheet"> -->
+  <style>
+    .choose {
+      position: relative;
+    }
+
+    .line-spacer {
+      width: 120px;
+      height: 2px;
+      background-color: #EAEAEA;
+      display: block !important;
+      position: absolute;
+      top: 12px;
+    }
+
+    .line-spacer-2 {
+      width: 120px;
+      height: 2px;
+      background-color: #EAEAEA;
+      display: block !important;
+      position: absolute;
+      top: 12px;
+      right: 0;
+    }
+  </style>
+</head>
+
+<body class="row col-md-12 col-sm-12 col-lg-7 d-block mx-auto">
+
+  <!--Main Navigation-->
+  <header>
+    <!-- Jumbotron -->
+    <div class="p-3 text-center bg-white border-bottom">
+      <div class="container">
+        <div class="row">
+          <!-- Left elements -->
+          <div class="col-md-2 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
+            <a href="#!" class="ms-md-2">
+              <img src="images/LOGO.jpg" height="35" />
+            </a>
+          </div>
+          <!-- Left elements -->
+
+          <!-- Center elements -->
+          <div class="col-md-8">
+            <form class="d-flex input-group w-auto my-auto mb-3 mb-md-0">
+              <input autocomplete="off" type="search" class="form-control rounded" placeholder="Search" />
+              <span class="input-group-text border-0 d-none d-lg-flex"><i class="fas fa-search"></i></span>
+            </form>
+          </div>
+          <!-- Center elements -->
+
+          <!-- Right elements -->
+          <div class="col-md-2 d-flex justify-content-center justify-content-md-end align-items-center">
+            <div class="d-flex">
+              <!-- Cart -->
+              <a class="text-reset me-3" href="#">
+                <span><i class="fas fa-shopping-cart"></i></span>
+                <span class="badge rounded-pill badge-notification bg-danger">1</span>
+              </a>
+
+
+
+
+              <!-- User -->
+
+              <div class="">
+                <div class="" type="button" id="" data-bs-toggle="" aria-expanded="false">
+                  <img src="images/nav/profile.png" class="rounded-circle" height="22" alt="" loading="lazy" />
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <!-- Right elements -->
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- Navbar -->
+    <div class="d-flex justify-content-center mb-4">
+      <div class="dropdown bg-light ">
+        <div class=" dropdown-toggle d-none-res-lg" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+          aria-expanded="false" style="    padding: 1rem 0.5rem;
+    ">
+          <i class="fas fa-bars me-1"></i>
+
+        </div>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item " href="#">الصفحة الرئيسية</a></li>
+          <li><a class="dropdown-item" href="#"> منتجاتنا</a></li>
+          <li><a class="dropdown-item" href="#">أحذية رجالي </a></li>
+          <li><a class="dropdown-item" href="#">أحذية أطفال </a></li>
+          <li><a class="dropdown-item" href="#">أحذية ستاتي </a></li>
+          <li><a class="dropdown-item" href="#"> من نحن</a></li>
+          <li><a class="dropdown-item" href="#">اتصل بنا </a></li>
+
+
+        </ul>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+        <!-- Container wrapper -->
+        <div class="container justify-content-center justify-content-md-between">
+          <!-- Left links -->
+
+
+          <ul class="navbar-nav flex-row ">
+
+            <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+              <a class="nav-link" href="#">اتصل بنا </a>
+            </li>
+
+            <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+              <a class="nav-link" href="#"> من نحن</a>
+            </li>
+
+
+            <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+              <a class="nav-link" href="#">أحذية ستاتي</a>
+            </li>
+
+
+            <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+              <a class="nav-link" href="#">أحذية أطفال</a>
+            </li>
+            <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+              <a class="nav-link" href="#">أحذية رجالي</a>
+            </li>
+            <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+              <a class="nav-link" href="#">منتجاتنا</a>
+            </li>
+            <li class="nav-item me-2 me-lg-0">
+              <a class="nav-link" role="button" data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1"
+                class="btn shadow-0 p-0 me-3 " aria-controls="#sidenav-1" aria-haspopup="true">
+                <span class="d-none-res">الصفحة الرئيسية</span>
+              </a>
+            </li>
+
+          </ul>
+          <!-- Left links -->
+
+
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+    </div>
+
+    <!-- Navbar -->
+
+  </header>
+  <!--Main Navigation-->
+
+
+
+
+
+
+<section class="shipping-address card container">
+    <div class="col-md-12">
+        <p class="main-branch-title mx-3 pt-3 "> عنواني</p>
+        <p class="branch-title-differnet pt-3 px-3">
+            من فضلك ,, قم بتعديل عنوان الشحن والفاتوره عند اضافه طلب شراء . من الممكن ان تضيف عناوين اخرى تكون مفيده لارسال هدايا عن طريقها او استقبال مشترياتك في عناوين اخرى مثل العمل ,البيت , المكتب وهكذا.
+
+        </p>
+
+    </div>
+
+    <form action="" class="py-5">
+                   
+        <div class="row my-2">
+            <div class="col-md-6">
+
+                <div class="form-outline ">
+                    <label for="" class="d-flex justify-content-end">الاسم الأول</label>
+                    <input type="email" id="form2Example11" class="form-control"
+                      placeholder="" />
+                  </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="form-outline ">
+                    <label for="" class="d-flex justify-content-end">الاسم الاخير </label>
+                    <input type="email" id="form2Example11" class="form-control"
+                      placeholder="أكرم" />
+                  </div>
+            </div>
+            
+        </div>
+    
+
+
+
+        <div class="row my-2">
+            <div class="col-md-12">
+
+                <div class="form-outline ">
+                    <label for="" class="d-flex justify-content-end">العنوان</label>
+                    <input type="email" id="form2Example11" class="form-control"
+                      placeholder="القدس - أبو ديس - شارع 32" />
+                  </div>
+            </div>
+           
+            
+        </div>
+
+
+        
+
+
+
+
+        <div class="row my-2">
+            <div class="col-md-6">
+
+                <div class="form-outline ">
+                    <label for="" class="d-flex justify-content-end"> المدينة </label>
+                    <input type="text" id="form2Example11" class="form-control"
+                      placeholder="القدس" />
+                  </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="form-outline ">
+                    <label for="" class="d-flex justify-content-end"> المنطقة </label>
+                    <input type="text" id="form2Example11" class="form-control"
+                    placeholder="أبو ديس" />                            
+                  </div>
+            </div>
+            
+        </div>
+
+        
+
+        <div class="row my-2">
+            <div class="col-md-12">
+
+                <div class="form-outline ">
+                    <label for="" class="d-flex justify-content-end">رقم الجوال</label>
+                    <input type="number" id="form2Example11" class="form-control"
+                      placeholder="+970599123456" />
+                  </div>
+            </div>
+           
+            
+        </div>
+
+      </form>
+
+
+</section>
+
+
+<a type="button" class="btn btn-color text-white  py-2 btn-sm col-md-3 mb-4" href="shopping_cart.html"> تحديث</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="  parent-footer ">
+  <div class="row footer ">
+    <div class="col-md-12 col-xs-4 ">
+      <div class="text-center">
+        <img src="images/LOGO.jpg" style="width: 185px;" alt="logo">
+      </div>
+    </div>
+
+    <div class="col-md-12 col-xs-4">
+      <div class="d-flex justify-content-center mt-3">
+        <p class="mx-2"><a href="my orders.html">طلباتي </a></p>
+        <p class="mx-2"><a href="personal_info.html">حسابي </a></p>
+        <p class="mx-2"><a href="terms _of_ service.html">الاحكام والشروط </a></p>
+        <p class="mx-2"><a href="privacy_policy.html">الخصوصية </a></p>
+        <p class="mx-2"><a href="shipping_address.html">الشحن والتوصيل </a></p>
+        <p class="mx-2"><a href="Us.html">من نحن</a></p>
+
+      </div>
+    </div>
+
+    <div class="col-md-12  col-xs-4 container " style="display: flex; justify-content: space-between;">
+      <div class="col-md-6 ">
+        <form class="d-flex ">
+          <button type="submit" class="btn join mx-2">اشترك</button>
+          <input type="text" name="" id="" placeholder="البريد الالكتروني" class="footer-input">
+        </form>
+
+      </div>
+      <div class="col-md-6 ">
+        <p class="text-right-rights">© جميع الحقوق محفوظة 2022</p>
+
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+  <!-- Swiper JS -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="jquery/jquery.js"></script>
+ 
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) {
+          document.getElementById('navbar_top').classList.add('fixed-top', 'col-lg-7', 'mx-auto', 'bg-light');
+          // add padding top to show content behind navbar
+          navbar_height = document.querySelector('.navbar').offsetHeight;
+          document.body.style.paddingTop = navbar_height + 'px';
+        } else {
+          document.getElementById('navbar_top').classList.remove('fixed-top', 'col-lg-7', 'mx-auto', 'bg-light');
+          // remove padding top from body
+          document.body.style.paddingTop = '0';
+        }
+      });
+    });
+</script>
+</body>
+
+</html>
